@@ -16,7 +16,7 @@
   - I Found Data on APEAMCET official website [Clickhere](https://cets.apsche.ap.gov.in/EAPCET/PDF/APEAPCET2023_2022LASTRANKDETAILS.pdf) pdf consists of 60 pages
   ### 2. Data Preparation:
   - Data is in pdf format so I couldn't do any Analysis at least any Manipulation So I decided to change this to CSV/excel by using Pandas
-  - I used pdf plumber & pandas for Extracting Data from PDF to CSV [Click Here](https://github.com/lokeshmadiga/apeamcet2022-Ranks-cutoff/blob/apeamcet_u1/pdf_csv_using_pandas.ipynb) For Detailed Python Code
+  - I used pdf plumber & pandas for Extracting Data from PDF to CSV [Click Here](https://github.com/NithinReddy369/APEMCET_2023_E2D_Data_Analysis/blob/main/pdf_to_csv.ipynb) For Detailed Python Code
   ### 3. Data Preprocessing / Data Cleaning:
   - Even though I have changed to CSV 30 Columns are not required & we can not perform any analysis with that data
   - So I Decided to Transform 18 Columns (All Categories+Gender) i.e, OC_EWS_GIRLS to 3 Separate Columns (Category, Gender, Rank) which is now reduced to 15 Columns
